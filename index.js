@@ -6,7 +6,7 @@ const setlist = [
     artist: "Coldplay",
   },
   {
-    song: "It runs trough me",
+    song: "It Runs Trough Me",
     artist: "Tom Misch",
   },
   {
@@ -15,15 +15,15 @@ const setlist = [
   },
   {
     song: "September",
-    artist: "Earth, wind and fire",
+    artist: "Earth, Wind and Fire",
   },
   {
     song: "Californication",
-    artist: "Red hot chili peppers",
+    artist: "Red Hot Chili Peppers",
   },
   {
-    song: "New shoes",
-    artist: "Paolo nutini",
+    song: "New Shoes",
+    artist: "Paolo Nutini",
   },
   {
     song: "Treasure",
@@ -34,23 +34,23 @@ const setlist = [
     artist: "The Beatles",
   },
   {
-    song: "Sexy als ik dans",
+    song: "Sexy Als Ik Dans",
     artist: "Nielson",
   },
   {
     song: "Sterrenstof",
-    artist: "De jeugd van tegenwoordig",
+    artist: "De Jeugd van Tegenwoordig",
   },
   {
     song: "Crazy",
     artist: "Gnarls Barkley",
   },
   {
-    song: "I got a feelin",
-    artist: "Black eyed peas",
+    song: "I Got a Feelin",
+    artist: "Black Eyed Peas",
   },
   {
-    song: "Cooler than me",
+    song: "Cooler Than Me",
     artist: "Mike Posner",
   },
   {
@@ -58,7 +58,7 @@ const setlist = [
     artist: "Coldplay",
   },
   {
-    song: "No such thing",
+    song: "No Such Thing",
     artist: "John Mayer",
   },
   {
@@ -70,35 +70,35 @@ const setlist = [
     artist: "Radiohead",
   },
   {
-    song: "Sweet home alabama",
-    artist: "Kid rock",
+    song: "Sweet Home Alabama",
+    artist: "Kid Rock",
   },
   {
-    song: "Sweet child o mine",
-    artist: "Guns 'n roses",
+    song: "Sweet Child of Mine",
+    artist: "Guns 'n Roses",
   },
   {
-    song: "Dani california",
-    artist: "Red hot chili peppers",
+    song: "Dani California",
+    artist: "Red Hot Chili Peppers",
   },
   {
-    song: "I'm yours",
+    song: "I'm Yours",
     artist: "Jason Mraz",
   },
   {
-    song: "Pride and joy",
+    song: "Pride and Joy",
     artist: "Stevie Ray Vaughan",
   },
   {
-    song: "Uptown funk",
+    song: "Uptown Funk",
     artist: "Mark Ronson ft. Bruno Mars",
   },
   {
-    song: "Gimme shelter",
+    song: "Gimme Shelter",
     artist: "The Rolling Stones",
   },
   {
-    song: "Proud mary",
+    song: "Proud Mary",
     artist: "Tina Turner",
   },
   {
@@ -106,35 +106,35 @@ const setlist = [
     artist: "Anouk",
   },
   {
-    song: "Go with the flow",
-    artist: "Queens of the stone age",
+    song: "Go With the Flow",
+    artist: "Queens of the Stone Age",
   },
   {
-    song: "No one knows",
-    artist: "Queens of the stone age",
+    song: "No One Knows",
+    artist: "Queens of the Stone Age",
   },
   {
     song: "505",
-    artist: "Arctic monkeys",
+    artist: "Arctic Monkeys",
   },
   {
-    song: "Nothing else matters",
+    song: "Nothing Else Matters",
     artist: "Metallica",
   },
   {
-    song: "Do I wanna know",
-    artist: "Arctic monkeys",
+    song: "Do I Wanna Know",
+    artist: "Arctic Monkeys",
   },
   {
-    song: "Slow dancing in a burning room",
+    song: "Slow Dancing In a Burning Room",
     artist: "John Mayer",
   },
   {
-    song: "Hey joe",
+    song: "Hey Joe",
     artist: "Jimmy Hendrix",
   },
   {
-    song: "Red house",
+    song: "Red House",
     artist: "Jimmy Hendrix",
   },
   {
@@ -142,8 +142,16 @@ const setlist = [
     artist: "Bob Marley",
   },
   {
-    song: "Stir it up",
+    song: "Stir It Up",
     artist: "Bob Marley",
+  },
+  {
+    song: "Come Together",
+    artist: "The Beatles",
+  },
+  {
+    song: "Tennessee Whiskey",
+    artist: "Chris Stapleton",
   },
 ];
 

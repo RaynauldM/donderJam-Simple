@@ -1,13 +1,16 @@
 * {
   background-color: black;
   color: white;
-  font: italic small-caps bold cursive;
+  font-family: "Courier New", Courier, monospace;
 }
 
 h1 {
+  font-family: "Courier New", Courier, monospace;
   color: #ffff66;
   text-align: center;
   font-size: 3em;
+  margin-top: 1em;
+  margin-bottom: 1em;
 }
 
 #setlistContainer {
@@ -22,4 +25,5 @@ ul {
 
 li {
   margin: 0.5em 0 1em 0;
+  padding-right: 1.5em;
 }
