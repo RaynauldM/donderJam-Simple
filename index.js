@@ -153,6 +153,26 @@ const setlist = [
     song: "Tennessee Whiskey",
     artist: "Chris Stapleton",
   },
+  {
+    song: "Aint Nothing But a Hounddog",
+    artist: "Elvis Presley",
+  },
+  {
+    song: "Snow",
+    artist: "Red Hot Chilli Peppers",
+  },
+  {
+    song: "Basket Case",
+    artist: "Green Day",
+  },
+  {
+    song: "Stadium Arcadium",
+    artist: "Red Hot Chilli Peppers",
+  },
+  {
+    song: "All Star",
+    artist: "Smash Mouth",
+  },
 ];
 
 for (let song of setlist) {
