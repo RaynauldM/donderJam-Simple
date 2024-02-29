@@ -173,6 +173,10 @@ const setlist = [
     song: "All Star",
     artist: "Smash Mouth",
   },
+  {
+    song: "Narcotic",
+    artist: "Liquido",
+  },
 ];
 
 for (let song of setlist) {
