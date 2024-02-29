@@ -1,0 +1,25 @@
+* {
+  background-color: black;
+  color: white;
+  font: italic small-caps bold cursive;
+}
+
+h1 {
+  color: #ffff66;
+  text-align: center;
+  font-size: 3em;
+}
+
+#setlistContainer {
+  text-align: justify;
+}
+
+ul {
+  list-style: none;
+  text-align: center;
+  font-size: 1.7em;
+}
+
+li {
+  margin: 0.5em 0 1em 0;
+}
