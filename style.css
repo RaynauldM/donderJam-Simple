@@ -1,29 +1,57 @@
-* {
-  background-color: black;
-  color: white;
-  font-family: "Courier New", Courier, monospace;
+/* General Reset */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #1a1a1a;
+  color: #f0f0f0;
 }
 
-h1 {
-  font-family: "Courier New", Courier, monospace;
-  color: #ffff66;
+header {
+  background-color: #333;
+  color: #f0f0f0;
+  padding: 20px;
   text-align: center;
-  font-size: 3em;
-  margin-top: 1em;
-  margin-bottom: 1em;
+  font-size: 1.5rem;
+}
+
+main {
+  padding: 20px;
 }
 
 #setlistContainer {
-  text-align: justify;
+  max-width: 600px;
+  margin: 0 auto;
 }
 
-ul {
+#setlistContainer ul {
   list-style: none;
-  text-align: start;
-  font-size: 1.7em;
+  padding: 0;
 }
 
-li {
-  margin: 0.5em 0 1em 0;
-  padding-right: 1.5em;
+.setlist-item {
+  background: #444;
+  border: 1px solid #555;
+  border-radius: 5px;
+  padding: 10px 15px;
+  margin: 10px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.setlist-item .song {
+  font-weight: bold;
+}
+
+.setlist-item .artist {
+  font-style: italic;
+  color: #ccc;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+  .setlist-item {
+    flex-direction: column;
+    align-items: flex-start;
+  }
 }
