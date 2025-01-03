@@ -1,3 +1,12 @@
+let allP = document.getElementsByTagName("p");
+
+for (let i of allP) {
+  i.addEventListener("click", (event) => {
+    let thisId = event.target.id;
+    console.log(thisId);
+  });
+}
+
 async function fetchSetlist(setlistX, setlistContainerId) {
   try {
     const response = await fetch(setlistX);
@@ -9,7 +18,7 @@ async function fetchSetlist(setlistX, setlistContainerId) {
     setlist.forEach((item) => {
       const listItem = document.createElement("li");
       listItem.classList.add("setlist-item");
-      listItem.innerHTML = `<span class="song">${item.song}</span> - <span class="artist">${item.artist}</span>`;
+      listItem.innerHTML = `<span class="song">${item.song}</span> <span class="artist">${item.artist}</span>`;
       setlistContainer.appendChild(listItem);
     });
   } catch (error) {
